@@ -3,7 +3,8 @@ def test_input_text(expected_result, actual_result):
       f"expected {expected_result}, got {actual_result}"
 
 
-#Проблема в том, что ты проверяешь саму функцию, а не аргументы! Ты написала assert test_input_text == ..., а нужно assert expected_result == actual_result.
+#Нужно проверять саму функцию, а не аргументы
+#Не assert test_input_text == ..., а assert expected_result == actual_result.
 
 
 
