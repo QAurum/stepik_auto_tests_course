@@ -57,11 +57,11 @@ def test_gest_should_log_in(browser, link):
 
     email_field = browser.find_element(By.NAME, "login")
     print("\nFIND EMAIL")
-    email_field.send_keys("aurumkes@yandex.ru")
+    email_field.send_keys("EMAIL")
     print("\nPASS EMAIL")
     password_field = browser.find_element(By.NAME, "password")
     print("\nFIND PASSWORW")
-    password_field.send_keys("Sirano042")
+    password_field.send_keys("PASSWORD")
     print("\nPASS PASSWORD")
     button_green = browser.find_element(By.CSS_SELECTOR, ".sign-form__btn")
     button_green.click()
